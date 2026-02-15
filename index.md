@@ -27,6 +27,8 @@ permalink: /
 
 [![星空写真展「星の声」案内](/assets/images/hoshi-no-koe-flyer.jpg){: style="max-width: 480px;"}](/events/)
 
+**図録も予約販売中！** → [購入はこちら](https://onitakuphoto.base.shop/items/134615820)
+
 ---
 
 ## 発起人（さとし）の活動情報をLINEで配信します
