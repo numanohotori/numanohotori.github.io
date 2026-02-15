@@ -1,0 +1,39 @@
+# サイト設定
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: "dark"
+
+# サイト情報
+title: "沼のほとり"
+subtitle: "天文コミュニティ"
+description: "星空を楽しむ天文コミュニティ「沼のほとり」"
+url: "https://numanohotori.github.io"
+locale: "ja-JP"
+
+# ナビゲーション
+header_pages:
+  - about.md
+  - events.md
+  - gallery.md
+  - contact.md
+
+# ビルド設定
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+
+# デフォルトのページ設定
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+
+# フッター
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/numanohotori"

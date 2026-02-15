@@ -1,0 +1,33 @@
+---
+---
+
+@import "minimal-mistakes/skins/dark";
+@import "minimal-mistakes";
+
+/* 天文コミュニティ向けカスタムスタイル */
+
+/* ヘッダーに深い夜空の雰囲気 */
+.masthead {
+  background-color: #0d1117;
+  border-bottom: 1px solid #1a2332;
+}
+
+/* リンクを星のような色合いに */
+a {
+  color: #7eb8da;
+
+  &:hover {
+    color: #b8d4e8;
+  }
+}
+
+/* ボタンのカスタマイズ */
+.btn--primary {
+  background-color: #1a4a6e;
+  border-color: #1a4a6e;
+
+  &:hover {
+    background-color: #245d87;
+    border-color: #245d87;
+  }
+}

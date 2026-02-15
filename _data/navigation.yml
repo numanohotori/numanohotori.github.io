@@ -1,0 +1,11 @@
+main:
+  - title: "ホーム"
+    url: /
+  - title: "沼のほとりとは"
+    url: /about/
+  - title: "イベント"
+    url: /events/
+  - title: "ギャラリー"
+    url: /gallery/
+  - title: "お問い合わせ"
+    url: /contact/
