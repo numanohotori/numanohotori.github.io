@@ -58,20 +58,7 @@ permalink: /flyer/
       margin-top: 1mm;
     }
 
-    /* ===== 写真 ===== */
-    .photo {
-      margin-top: 6mm;
-      flex-shrink: 0;
-    }
-
-    .photo img {
-      width: 180mm;
-      height: 70mm;
-      object-fit: cover;
-      border-radius: 3mm;
-    }
-
-    /* ===== メインコンテンツ ===== */
+    /* ===== メインコンテンツ: 2カラム ===== */
     .main {
       width: 100%;
       margin-top: 6mm;
@@ -86,10 +73,31 @@ permalink: /flyer/
       color: #7eb8da;
     }
 
+    .content-row {
+      display: flex;
+      gap: 6mm;
+      align-items: stretch;
+    }
+
+    .content-left {
+      flex: 1;
+    }
+
+    .content-right {
+      width: 70mm;
+      flex-shrink: 0;
+    }
+
+    .content-right img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 3mm;
+    }
+
     .details {
       font-size: 10.5pt;
       line-height: 1.9;
-      padding: 0 5mm;
     }
 
     .details ul {
@@ -188,29 +196,31 @@ permalink: /flyer/
     <div class="subtitle">ASTRONOMY FAN</div>
   </div>
 
-  <!-- 写真 -->
-  <div class="photo">
-    <img src="/assets/images/flyer-photo.jpg" alt="星空と望遠鏡">
-  </div>
-
   <!-- メインコンテンツ -->
   <div class="main">
     <p class="lead">発起人（さとし）の活動情報をLINEで配信します</p>
-    <div class="details">
-      <ul>
-        <li>普段の小石原ダムでの星見の予定</li>
-        <li>地域の天文台での観望会情報</li>
-        <li>天文現象の情報や星空の写真をシェア</li>
-        <li>その他イベント情報を配信予定</li>
-      </ul>
-      <p>普段の小石原ダムでの星見や観望会には手ぶらで連絡無く来てもらってOK！<br>
-      現地で撮影方法の相談なんかも受け付けます。</p>
-      <div class="location">
-        <div class="label">主な観測地</div>
-        <div class="address">
-          小石原ダム管理所駐車場（トイレきれい）<br>
-          福岡県朝倉市江川2815-20
+    <div class="content-row">
+      <div class="content-left">
+        <div class="details">
+          <ul>
+            <li>普段の小石原ダムでの星見の予定</li>
+            <li>地域の天文台での観望会情報</li>
+            <li>天文現象の情報や星空の写真をシェア</li>
+            <li>その他イベント情報を配信予定</li>
+          </ul>
+          <p>普段の小石原ダムでの星見や観望会には手ぶらで連絡無く来てもらってOK！<br>
+          現地で撮影方法の相談なんかも受け付けます。</p>
+          <div class="location">
+            <div class="label">主な観測地</div>
+            <div class="address">
+              小石原ダム管理所駐車場（トイレきれい）<br>
+              福岡県朝倉市江川2815-20
+            </div>
+          </div>
         </div>
+      </div>
+      <div class="content-right">
+        <img src="/assets/images/flyer-photo.jpg" alt="星空と望遠鏡">
       </div>
     </div>
     <p class="cta">LINE公式アカウントをフォローして、最新の天文情報を受け取ろう！</p>
