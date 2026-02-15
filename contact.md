@@ -14,6 +14,16 @@ permalink: /contact/
 
 ---
 
+## AstroBin
+
+天体写真はAstroBinでも公開しています。
+
+[![AstroBin QRコード](/assets/images/astrobin-qr.png){: style="max-width: 200px;"}](https://app.astrobin.com/u/ysmr3104)
+
+[AstroBinで見る](https://app.astrobin.com/u/ysmr3104){: .btn .btn--primary .btn--large}
+
+---
+
 ## GitHub
 
 このサイトのソースコードはGitHubで公開しています。
