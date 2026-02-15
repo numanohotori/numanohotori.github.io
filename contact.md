@@ -14,6 +14,14 @@ permalink: /contact/
 
 ---
 
+## Instagram
+
+[![Instagram QRコード](/assets/images/instagram-qr.png){: style="max-width: 200px;"}](https://www.instagram.com/ysmr3104/)
+
+[Instagramを見る](https://www.instagram.com/ysmr3104/){: .btn .btn--primary .btn--large}
+
+---
+
 ## AstroBin
 
 天体写真はAstroBinでも公開しています。
