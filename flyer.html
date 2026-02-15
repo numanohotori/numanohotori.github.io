@@ -1,0 +1,162 @@
+---
+layout: null
+permalink: /flyer/
+---
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>沼のほとり - チラシ</title>
+  <style>
+    /* A4サイズ（210mm × 297mm）に最適化 */
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 210mm;
+      height: 297mm;
+      margin: 0 auto;
+      background: #0d1117;
+      color: #e6edf3;
+      font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20mm 15mm;
+    }
+
+    /* ===== ヘッダー: ロゴ＋タイトル ===== */
+    .header {
+      text-align: center;
+    }
+
+    .logo {
+      width: 60mm;
+      height: auto;
+    }
+
+    .title {
+      font-size: 28pt;
+      font-weight: bold;
+      margin-top: 5mm;
+      letter-spacing: 0.15em;
+    }
+
+    .subtitle {
+      font-size: 14pt;
+      color: #7eb8da;
+      margin-top: 2mm;
+    }
+
+    /* ===== メインコンテンツ ===== */
+    .main {
+      text-align: center;
+      width: 100%;
+    }
+
+    .tagline {
+      font-size: 16pt;
+      line-height: 1.8;
+      margin-bottom: 8mm;
+    }
+
+    .features {
+      list-style: none;
+      font-size: 14pt;
+      line-height: 2.2;
+    }
+
+    .features li::before {
+      content: "★ ";
+      color: #7eb8da;
+    }
+
+    /* ===== フッター: QRコード＋案内 ===== */
+    .footer {
+      text-align: center;
+    }
+
+    .qr-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10mm;
+    }
+
+    .qr-item {
+      text-align: center;
+    }
+
+    .qr-item img {
+      width: 40mm;
+      height: 40mm;
+      object-fit: contain;
+    }
+
+    .qr-label {
+      font-size: 10pt;
+      margin-top: 2mm;
+      color: #7eb8da;
+    }
+
+    .url {
+      font-size: 10pt;
+      color: #8b949e;
+      margin-top: 5mm;
+    }
+
+    /* ===== 印刷時の設定 ===== */
+    @media print {
+      body {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <div class="header">
+    <img src="/assets/images/logo.png" alt="沼のほとり" class="logo">
+    <div class="title">沼のほとり</div>
+    <div class="subtitle">天文コミュニティ — NUMA NO HOTORI</div>
+  </div>
+
+  <!-- メインコンテンツ -->
+  <!-- TODO: 伝えたい内容が決まったら書き換えてください -->
+  <div class="main">
+    <p class="tagline">星空の沼にハマった人たちが集まる場所。</p>
+    <ul class="features">
+      <li>観望会の開催</li>
+      <li>天体写真の共有</li>
+      <li>機材・撮影情報の交換</li>
+    </ul>
+  </div>
+
+  <!-- フッター: QRコード -->
+  <div class="footer">
+    <div class="qr-section">
+      <div class="qr-item">
+        <img src="/assets/images/site-link-qr.jpg" alt="サイトQRコード">
+        <div class="qr-label">Webサイト</div>
+      </div>
+      <div class="qr-item">
+        <img src="/assets/images/line-qr.png" alt="LINE QRコード">
+        <div class="qr-label">LINE 友だち追加</div>
+      </div>
+    </div>
+    <div class="url">https://numanohotori.github.io</div>
+  </div>
+
+</body>
+</html>
